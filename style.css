@@ -1,6 +1,6 @@
 /* style.css */
 body {
-  background-color: #07c0ee;
+  background-color: #f4a3e1;
   font-family: Arial, sans-serif;
   color: rgb(248, 241, 241);
 }
@@ -8,5 +8,19 @@ body {
 h1 {
   color: #eff3f4;
   text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+address {
+    width: 85 mm x 55 mm;
+    border: solid 3px white; /* ou une couleur de ton choix */
+    border-radius: 50px;       /* ajouter px pour que ça fonctionne */
+    padding: 50px;             /* pour que le contenu ne touche pas la bordure */
+    display: inline-block;     /* pour que la bordure suive le contenu */
+    background-color: #07c0ee;
 }
 
